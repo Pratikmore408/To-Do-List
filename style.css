@@ -1,0 +1,72 @@
+
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    .container {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: black;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: white;
+    }
+    #todoInput {
+      width: 90%;
+      padding: 8px;
+      border: 1px solid papayawhip;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    #addBtn {
+      width: 40px;
+      padding: 8px;
+      background-color: green;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    ul {
+      padding: 0;
+    }
+    li {
+      padding: 8px;
+      border-bottom: 1px solid whitesmoke;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+    .task-checkbox {
+      margin-right: 10px;
+    }
+    .checked {
+      text-decoration: line-through;
+      color: whitesmoke;
+    }
+    .delete-btn {
+      background-color: transparent;
+      color: white;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 1rem;
+    }
+    
+    .delete-btn:hover {
+      color: red;
+    }
+
+    p{
+      color: white;
+    }
